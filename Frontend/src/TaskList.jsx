@@ -24,7 +24,6 @@ const TaskList = ({ tasks, title, token, removeTask, updateTask, onEdit }) => {
             <button
               onClick={() => {
                 removeTask(task._id);
-                toast.success('Task deleted successfully!');
               }}
               className="px-2 py-1 bg-red-500 text-white rounded-md"
             >

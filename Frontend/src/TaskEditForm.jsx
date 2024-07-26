@@ -23,7 +23,7 @@ const TaskEditForm = ({ task, token, onSave, onCancel }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col md:flex-row items-center bg-white shadow-md rounded-lg p-4 space-y-4 md:space-y-0 md:space-x-4">
+    <form onSubmit={handleSubmit} className="flex flex-col md:flex-col gap-3 items-center bg-white shadow-md rounded-lg p-4 space-y-4 md:space-y-0 md:space-x-4">
       <input
         type="text"
         placeholder="Title"
